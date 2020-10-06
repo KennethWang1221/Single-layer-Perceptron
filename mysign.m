@@ -1,0 +1,12 @@
+function out = mysign(d)
+% a signsum function 
+
+out = 1*(d>=0) + (-1)*(d<0);
+
+% if distance(d,1) <= distance(d,0),
+%     out = 1;
+% else
+%     out = 0;
+% end
+
+return
